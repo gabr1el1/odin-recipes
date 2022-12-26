@@ -1,0 +1,29 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.title{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:36px;
+    color:gold;
+
+}
+li a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: darkblue
+}
+ul li{
+    list-style-type: none;
+}
+ul li::before{
+    content: '🥄';
+}
+img{
+    width: 300px;
+    height: auto;
+    float: right;
+}
